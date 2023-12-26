@@ -2,7 +2,7 @@ import "./BookList.css";
 import { useGlobalContext } from './../../context/Context';
 import Book from "../BookList/Book";
 import Loading from "../Loader/Loader";
-import coverImg from "../../images/cover_not_found.jpg";
+import coverImg from "/images/cover_not_found.jpg";
 
 const BookList = () => {
     const { books, loading, resultTitle } = useGlobalContext();

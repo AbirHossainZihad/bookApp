@@ -1,6 +1,6 @@
 import './Navbar.css';
 import { Link } from 'react-router-dom';
-import logoImg from "../../images/logo.png";
+import logoImg from "/images/logo.png";
 import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { useState } from 'react';
 const Navbar = () => {

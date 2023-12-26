@@ -11,7 +11,7 @@ import BookDetails from "./components/BookDetails/BookDetails";
 const App = () => {
   return (
     <AppProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/bookApp">
         <Routes>
           <Route path="/" element={<Home />}>
             <Route path="about" element={<About />} />

@@ -2,7 +2,7 @@ import "./BookDetails.css";
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Loading from "../Loader/Loader";
-import coverImg from "../../images/cover_not_found.jpg";
+import coverImg from '/images/cover_not_found.jpg';
 import { FaArrowLeft } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 
